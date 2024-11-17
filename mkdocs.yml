@@ -1,0 +1,43 @@
+site_name: "Algorithms"
+
+theme:
+  name: "material"
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - palette.toggle
+    - navigation.footer
+    - navigation.sidebar
+    - navigation.expand
+
+nav:
+  - Home: index.md
+  - Sorting:
+    - Bubble Sort: sorting/bubble_sort.md
+    - Selection Sort: sorting/selection_sort.md
+  - Searching:
+    - Linear Search: searching/linear_search.md
+    - Binary Search: searching/binary_search.md
+
+markdown_extensions:
+  - toc:
+      permalink: True
+  - codehilite
+
+repo_url: "https://github.com/SnakeByteDev/algorithms"
+
+extra:
+  generator: false

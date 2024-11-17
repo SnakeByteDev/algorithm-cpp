@@ -1,1 +1,1 @@
-# algorithm-cpp
+# algorithms
